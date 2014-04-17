@@ -57,7 +57,7 @@ Requires:      %{name} = %{version}-%{release}
 Header files for the Jack Audio Connection Kit.
 
 %package example-clients
-Summary:       Example clients that use Jack 
+Summary:       Example clients that use Jack
 Group:         Applications/Multimedia
 Requires:      %{name} = %{version}-%{release}
 
@@ -107,7 +107,7 @@ exit 0
 
 %postun -p /sbin/ldconfig
 
-%files 
+%files
 %doc README README_NETJACK2
 %{_bindir}/jackd
 %{_bindir}/jackrec
