@@ -13,7 +13,6 @@ Source100:     jack-limits.conf
 Source1001:    jack.manifest
 BuildRequires: pkgconfig(alsa)
 BuildRequires: pkgconfig(dbus-1)
-BuildRequires: pkgconfig(celt)
 BuildRequires: doxygen
 BuildRequires: pkgconfig(expat)
 BuildRequires: pkgconfig(samplerate)
